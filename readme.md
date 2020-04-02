@@ -1,5 +1,3 @@
-# json2csv2json
-
 ## Localization JSON Files Conversion Tool 
 
 ## Install and run
@@ -16,7 +14,7 @@ python3 gui.py
 
 ## JSON to CSV
 
-JSON files (ONLY 2 LEVEL IS SUPPORTED)
+JSON files 
 
 ```js
 // en.json
@@ -33,6 +31,9 @@ JSON files (ONLY 2 LEVEL IS SUPPORTED)
 2. Convert to CSV
 
 ![](img/img1.png "")
+
+
+
 
 
 Import CSV file to Excel / Google sheets
