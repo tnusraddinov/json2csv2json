@@ -3,7 +3,6 @@ from tkinter import filedialog
 from tkinter import messagebox
 import pandas as pd
 import json
-from pandas.io.json import json_normalize
 from pathlib import Path
 
 
@@ -44,7 +43,7 @@ def getJSON():
                 data_list.append(data)
         else:
             data_list.append(dict())
-    df = json_normalize(data_list)
+    df = pd.json_normalize(data_list)
 
 def convertToCSV():
     export_file_path = filedialog.asksaveasfilename(defaultextension='.csv')
