@@ -6,7 +6,7 @@
 
 ```bash
 # dependencies
-sudo apt-get install python3-tk 
+sudo apt-get install python3-tk tk-dev
 sudo pip3 install pandas
 
 # run
